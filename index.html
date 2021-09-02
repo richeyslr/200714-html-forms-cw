@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Form Praccy</title>
+</head>
+<body>
+  <body>
+    <div class="container">
+    <div id="logo-pic">
+      <img src="./imgs/bookclub.png" alt="bookclub logo">
+    </div>
+  
+    <div class="form-container" id="form-wrapper">
+      <h2>Welcome to BookClub</h2>
+      <p>Get instant access to the key takeaways from the world's most influental books ever written that are guaranteed to change your life.</p>
+      <form action="">
+        <div id="firstnamepair" class="pairs">
+            <label for="fname">First Name:</label>
+            <input class="textbox" id="fname" type="text" />
+        </div>
+        <div id="lastnamepair" class="pairs">
+        <label for="lname">Last Name:</label>
+        <input class="textbox" id="lname" type="text" />
+    </div>
+    <div id="emailpair" class="pairs">
+        <label for="email">E-mail:</label>
+        <input class="textbox" id="email" type="email" />
+        </div>
+
+        <div id="pwordpair" class="pairs">
+            <label for="pword">Password:</label>
+            <input class="textbox" type="password" />
+        </div>
+
+        <div id="pword2pair" class="pairs">
+            <label for="pword2">Confirm Password:</label>
+            <input class="textbox" id="pword2" type="text" />
+        </div>
+        
+        <div id="termspair">
+        <input id="termscheck" type="checkbox">
+        <label for="termscheck" id="terms">Yes, I understand and agree to BookClub's <a href="/">Terms of Service</a> including the <a href="/">User Agreement</a> and <a href="/">Privacy Policy</a>.</label>
+        </div>
+
+        <input id="submitbtn" type="submit" value="Create Account" />
+        <p>Already have an account? <a href="./index.html">Log in.</a></p>
+      </form>
+    </div>
+    </div>
+<script src="./app.js"></script>
+</body>
+</html>
